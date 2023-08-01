@@ -23,6 +23,14 @@ import os
 # pip install djangorestframework
 # pip install fpdf
 # pip install django-cors-headers
+#COMANDOS PYTHON ANY WHERE
+#https://www.pythonanywhere.com/
+#python3 -m venv .virtuañenvs/entorno
+# ls
+# cd~/
+# unzip GestionName.zip
+# source activate
+# source Name.sql
 # ----Fin comandos
 def inicio(request):
     return render(request,"Inicio.html")
